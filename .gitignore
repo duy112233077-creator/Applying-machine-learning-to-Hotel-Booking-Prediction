@@ -1,0 +1,27 @@
+# Python cache & temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+.env
+
+# Large temporary gridsearch model checkpoint (>50MB)
+outputs/models/best_rf_gridsearch.pkl
+
+# Course reference PDFs (Optional / Unnecessary for repo)
+baihoc/
+baitap/
+
+# Temporary text outputs
+outputs/lesson06_text.txt
+
+# IDE & System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
