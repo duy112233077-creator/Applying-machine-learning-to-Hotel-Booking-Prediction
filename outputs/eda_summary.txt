@@ -1,0 +1,61 @@
+=== DATASET INFORMATION ===
+Shape: (119390, 32)
+
+Column Names & Types:
+ - hotel: str
+ - is_canceled: int64
+ - lead_time: int64
+ - arrival_date_year: int64
+ - arrival_date_month: str
+ - arrival_date_week_number: int64
+ - arrival_date_day_of_month: int64
+ - stays_in_weekend_nights: int64
+ - stays_in_week_nights: int64
+ - adults: int64
+ - children: float64
+ - babies: int64
+ - meal: str
+ - country: str
+ - market_segment: str
+ - distribution_channel: str
+ - is_repeated_guest: int64
+ - previous_cancellations: int64
+ - previous_bookings_not_canceled: int64
+ - reserved_room_type: str
+ - assigned_room_type: str
+ - booking_changes: int64
+ - deposit_type: str
+ - agent: float64
+ - company: float64
+ - days_in_waiting_list: int64
+ - customer_type: str
+ - adr: float64
+ - required_car_parking_spaces: int64
+ - total_of_special_requests: int64
+ - reservation_status: str
+ - reservation_status_date: str
+
+=== MISSING VALUES ===
+children         4
+country        488
+agent        16340
+company     112593
+
+=== DESCRIPTIVE STATISTICS ===
+         is_canceled      lead_time  arrival_date_year  arrival_date_week_number  arrival_date_day_of_month  stays_in_weekend_nights  stays_in_week_nights         adults       children         babies  is_repeated_guest  previous_cancellations  previous_bookings_not_canceled  booking_changes          agent      company  days_in_waiting_list            adr  required_car_parking_spaces  total_of_special_requests
+count  119390.000000  119390.000000      119390.000000             119390.000000              119390.000000            119390.000000         119390.000000  119390.000000  119386.000000  119390.000000      119390.000000           119390.000000                   119390.000000    119390.000000  103050.000000  6797.000000         119390.000000  119390.000000                119390.000000              119390.000000
+mean        0.370416     104.011416        2016.156554                 27.165173                  15.798241                 0.927599              2.500302       1.856403       0.103890       0.007949           0.031912                0.087118                        0.137097         0.221124      86.693382   189.266735              2.321149     101.831122                     0.062518                   0.571363
+std         0.482918     106.863097           0.707476                 13.605138                   8.780829                 0.998613              1.908286       0.579261       0.398561       0.097436           0.175767                0.844336                        1.497437         0.652306     110.774548   131.655015             17.594721      50.535790                     0.245291                   0.792798
+min         0.000000       0.000000        2015.000000                  1.000000                   1.000000                 0.000000              0.000000       0.000000       0.000000       0.000000           0.000000                0.000000                        0.000000         0.000000       1.000000     6.000000              0.000000      -6.380000                     0.000000                   0.000000
+25%         0.000000      18.000000        2016.000000                 16.000000                   8.000000                 0.000000              1.000000       2.000000       0.000000       0.000000           0.000000                0.000000                        0.000000         0.000000       9.000000    62.000000              0.000000      69.290000                     0.000000                   0.000000
+50%         0.000000      69.000000        2016.000000                 28.000000                  16.000000                 1.000000              2.000000       2.000000       0.000000       0.000000           0.000000                0.000000                        0.000000         0.000000      14.000000   179.000000              0.000000      94.575000                     0.000000                   0.000000
+75%         1.000000     160.000000        2017.000000                 38.000000                  23.000000                 2.000000              3.000000       2.000000       0.000000       0.000000           0.000000                0.000000                        0.000000         0.000000     229.000000   270.000000              0.000000     126.000000                     0.000000                   1.000000
+max         1.000000     737.000000        2017.000000                 53.000000                  31.000000                19.000000             50.000000      55.000000      10.000000      10.000000           1.000000               26.000000                       72.000000        21.000000     535.000000   543.000000            391.000000    5400.000000                     8.000000                   5.000000
+
+=== TARGET DISTRIBUTION ===
+is_canceled
+0    75166
+1    44224
+is_canceled
+0    0.629584
+1    0.370416
