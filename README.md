@@ -82,9 +82,3 @@ Sau khi chạy command trên, truy cập đường dẫn local: `http://localhos
 
 ---
 
-## 👤 Tác Giả
-
-- **Sinh viên thực hiện**: Lê Đức Tuyển - Tạ Quang Đại
-- **Lớp**: 12422TN - Trường Đại học Sư phạm Kỹ thuật Hưng Yên
-- **Giảng viên hướng dẫn**: TS. Hoàng Quốc Việt
->>>>>>> de24b50 (Initial commit: Hotel Booking Cancellation Prediction Machine Learning project and Streamlit Web App)
